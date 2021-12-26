@@ -1,0 +1,11 @@
+create database company;
+USE company;
+create table employee(id int,name varchar(100),address varchar(100),department varchar(100),mobileno numeric);
+select * from employee;
+insert into employee values(111,"Dimple","Berhampur","Developer",9040509473);
+insert into employee values(101,"Deepika","Berhampur","IT",9040509473);
+insert into employee values(102,"Anjali","Mumbai","CSE",9040509543);
+insert into employee values(103,"Raj","Bhuvaneswar","Civil",1234567893);
+insert into employee values(104,"Yash","Puri","CSE",9040609473);
+insert into employee values(105,"Mani","Hyderbad","Electronics",2345657489);
+delete from employee where id=105;
