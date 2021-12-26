@@ -1,0 +1,11 @@
+create database college;
+
+USE college;
+create table student(id int,name varchar(100),address varchar(100));
+insert into student(id,name,address)values(101,"param","UK");
+
+insert into student(id,name,address)values(102,"Anand","India");
+
+insert into student(id,name,address)values(103,"sanvid","USA");
+
+select * from student;
